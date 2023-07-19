@@ -1,5 +1,5 @@
 # Provide a custom message
-message: "Msys Technologies Argo CD Demo tech talk_v_1.6"
+message: "Msys Technologies Argo CD Demo tech talk_v_1.7"
 
 # Remember to set service.type=ClusterIP if you are using an ingress
 ingress:
@@ -12,11 +12,11 @@ service:
   port: 80
 
 deployment:
-  replicaCount: 2
+  replicaCount: 3
   container:
     image:
       repository: "paulbouwer/hello-kubernetes"
-      tag: 1.6
+      tag: 1.7
       pullPolicy: IfNotPresent
     port: 8080
 
