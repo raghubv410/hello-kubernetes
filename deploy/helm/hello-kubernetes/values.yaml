@@ -16,7 +16,7 @@ deployment:
   container:
     image:
       repository: "paulbouwer/hello-kubernetes"
-      tag: 1.10
+      tag: 1.9
       pullPolicy: IfNotPresent
     port: 8080
 
